@@ -8,7 +8,7 @@ module GoogleChart
     end
 
     def add_colors
-      @params[:chco] = @colors.compact.join(",") unless @colors.compact.empty?
+      @params[:chco] = @colors.compact.join("|") unless @colors.compact.empty?
     end
 
   end

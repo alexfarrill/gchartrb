@@ -134,7 +134,7 @@ module GoogleChart
                when :text then "t:"
                when :extended then "e:"
                end
-      @params[:chd] = prefix + sets.join(get_series_separator)
+      @params[:chd] = prefix + sets.join(get_data_separator)
     end
 
     def get_series_separator
